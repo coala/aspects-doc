@@ -156,9 +156,10 @@ def recurse(aspect, level=0):
         if subaspect.subaspects.items():
             for subsub_name, subsub in sorted(subaspect.subaspects.items()):
                 output += "* `" + subsub_name + " <" + subsub_name + "/README.rst>`_\n"
+            output += "\n"
         else:
             output += "This aspect does not have any sub aspects.\n\n"
-
+        
         if subaspect.docs.example:
             output += "Example\n"
             output += "=======\n\n"
