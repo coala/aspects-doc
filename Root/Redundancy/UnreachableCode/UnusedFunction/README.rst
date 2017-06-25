@@ -2,6 +2,7 @@
 | ``Root.Redundancy.UnreachableCode.UnusedFunction`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------------------------------+----------------------------+------------------------------------------------------------------+
 
+
 +---------------------+--------------------------------------------------------------+
 | **Sibling aspects** | `UnreachableStatement <../UnreachableStatement/README.rst>`_ |
 +---------------------+--------------------------------------------------------------+

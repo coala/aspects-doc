@@ -5,6 +5,45 @@ This repository is automatically generated. To do so, run ``./generate``. This w
 
 The aspect tree is given below:
 
+- `Formatting <Root/Formatting/README.rst>`_ 
+  
+
+  - `Length <Root/Formatting/Length/README.rst>`_ 
+    
+
+    - `FileLength <Root/Formatting/Length/FileLength/README.rst>`_ 
+      
+
+    - `LineLength <Root/Formatting/Length/LineLength/README.rst>`_ 
+      
+
+  - `Quotation <Root/Formatting/Quotation/README.rst>`_ 
+    
+
+  - `Spacing <Root/Formatting/Spacing/README.rst>`_ 
+    
+
+    - `BlankLine <Root/Formatting/Spacing/BlankLine/README.rst>`_ 
+      
+
+      - `BlankLineAfterClass <Root/Formatting/Spacing/BlankLine/BlankLineAfterClass/README.rst>`_ 
+        
+
+      - `BlankLineAfterDeclaration <Root/Formatting/Spacing/BlankLine/BlankLineAfterDeclaration/README.rst>`_ 
+        
+
+      - `BlankLineAfterProcedure <Root/Formatting/Spacing/BlankLine/BlankLineAfterProcedure/README.rst>`_ 
+        
+
+      - `NewlineAtEOF <Root/Formatting/Spacing/BlankLine/NewlineAtEOF/README.rst>`_ 
+        
+
+    - `SpacesAroundOperator <Root/Formatting/Spacing/SpacesAroundOperator/README.rst>`_ 
+      
+
+    - `TrailingSpace <Root/Formatting/Spacing/TrailingSpace/README.rst>`_ 
+      
+
 - `Metadata <Root/Metadata/README.rst>`_ 
   
 
@@ -80,8 +119,20 @@ The aspect tree is given below:
   - `ClassSmell <Root/Smell/ClassSmell/README.rst>`_ 
     
 
-    - `ClassLength <Root/Smell/ClassSmell/ClassLength/README.rst>`_ 
+    - `ClassSize <Root/Smell/ClassSmell/ClassSize/README.rst>`_ 
       
+
+      - `ClassConstants <Root/Smell/ClassSmell/ClassSize/ClassConstants/README.rst>`_ 
+        
+
+      - `ClassInstanceVariables <Root/Smell/ClassSmell/ClassSize/ClassInstanceVariables/README.rst>`_ 
+        
+
+      - `ClassLength <Root/Smell/ClassSmell/ClassSize/ClassLength/README.rst>`_ 
+        
+
+      - `ClassMethods <Root/Smell/ClassSmell/ClassSize/ClassMethods/README.rst>`_ 
+        
 
     - `DataClump <Root/Smell/ClassSmell/DataClump/README.rst>`_ 
       
@@ -92,8 +143,20 @@ The aspect tree is given below:
   - `Complexity <Root/Smell/Complexity/README.rst>`_ 
     
 
+    - `CylomaticComplexity <Root/Smell/Complexity/CylomaticComplexity/README.rst>`_ 
+      
+
+    - `MaintainabilityIndex <Root/Smell/Complexity/MaintainabilityIndex/README.rst>`_ 
+      
+
   - `MethodSmell <Root/Smell/MethodSmell/README.rst>`_ 
     
+
+    - `MethodLength <Root/Smell/MethodSmell/MethodLength/README.rst>`_ 
+      
+
+    - `ParameterListLength <Root/Smell/MethodSmell/ParameterListLength/README.rst>`_ 
+      
 
   - `Naming <Root/Smell/Naming/README.rst>`_ 
     
@@ -101,9 +164,9 @@ The aspect tree is given below:
 - `Spelling <Root/Spelling/README.rst>`_ 
   
 
-  - `aspectsYEAH <Root/Spelling/aspectsYEAH/README.rst>`_ 
+  - `DictionarySpelling <Root/Spelling/DictionarySpelling/README.rst>`_ 
     
 
-  - `coalaCorrect <Root/Spelling/coalaCorrect/README.rst>`_ 
+  - `OrgSpecificWordSpelling <Root/Spelling/OrgSpecificWordSpelling/README.rst>`_ 
     
 
