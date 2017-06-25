@@ -80,20 +80,29 @@ The aspect tree is given below:
   - `ClassSmell <Root/Smell/ClassSmell/README.rst>`_ 
     
 
-    - `ClassLength <Root/Smell/ClassSmell/ClassLength/README.rst>`_ 
-      
-
     - `DataClump <Root/Smell/ClassSmell/DataClump/README.rst>`_ 
       
 
     - `FeatureEnvy <Root/Smell/ClassSmell/FeatureEnvy/README.rst>`_ 
       
 
+    - `LargeClass <Root/Smell/ClassSmell/LargeClass/README.rst>`_ 
+      
+
   - `Complexity <Root/Smell/Complexity/README.rst>`_ 
     
 
+    - `CylomaticComplexity <Root/Smell/Complexity/CylomaticComplexity/README.rst>`_ 
+      
+
   - `MethodSmell <Root/Smell/MethodSmell/README.rst>`_ 
     
+
+    - `LongMethod <Root/Smell/MethodSmell/LongMethod/README.rst>`_ 
+      
+
+    - `LongParameterList <Root/Smell/MethodSmell/LongParameterList/README.rst>`_ 
+      
 
   - `Naming <Root/Smell/Naming/README.rst>`_ 
     
@@ -101,9 +110,9 @@ The aspect tree is given below:
 - `Spelling <Root/Spelling/README.rst>`_ 
   
 
-  - `aspectsYEAH <Root/Spelling/aspectsYEAH/README.rst>`_ 
+  - `CompanySpecificMisspelledWord <Root/Spelling/CompanySpecificMisspelledWord/README.rst>`_ 
     
 
-  - `coalaCorrect <Root/Spelling/coalaCorrect/README.rst>`_ 
+  - `GeneralMisspelledWord <Root/Spelling/GeneralMisspelledWord/README.rst>`_ 
     
 
