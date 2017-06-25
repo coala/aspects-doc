@@ -8,30 +8,30 @@
 
 Spelling
 ========
-This aspect describes spelling of your source code.
+This aspect checks for misspelled words in your docs.
 
 Subaspects
 ==========
 
-* `aspectsYEAH <aspectsYEAH/README.rst>`_
-* `coalaCorrect <coalaCorrect/README.rst>`_
+* `CompanySpecificMisspelledWord <CompanySpecificMisspelledWord/README.rst>`_
+* `GeneralMisspelledWord <GeneralMisspelledWord/README.rst>`_
 Example
 =======
 
-.. code-block:: All
+.. code-block:: English
 
-    `Coala`, `AspectsYEAH`
+    'Tihs si surly som incoreclt speling.
+    `Coala` is always written with a lowercase `c`.
 
 
 Importance
 ==========
 
-They are words we always want to be written the way we want like the
-name of our app eg: `coala`...
+Words should always be written as they are supposed to be,
+standartization facilitates communication.
 
 How to fix this
 ==========
 
-Use coala :) to detect what word is not written as expected, given
-that there is a bear for it ;).
+Use the correct spelling for the misspelled words.
 

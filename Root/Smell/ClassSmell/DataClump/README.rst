@@ -2,9 +2,9 @@
 | ``Root.Smell.ClassSmell.DataClump`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +-------------------------------------+----------------------------+------------------------------------------------------------------+
 
-+---------------------+--------------------------------------------+--------------------------------------------+
-| **Sibling aspects** | `ClassLength <../ClassLength/README.rst>`_ | `FeatureEnvy <../FeatureEnvy/README.rst>`_ |
-+---------------------+--------------------------------------------+--------------------------------------------+
++---------------------+--------------------------------------------+------------------------------------------+
+| **Sibling aspects** | `FeatureEnvy <../FeatureEnvy/README.rst>`_ | `LargeClass <../LargeClass/README.rst>`_ |
++---------------------+--------------------------------------------+------------------------------------------+
 
 DataClump
 =========
@@ -39,8 +39,11 @@ Example
                                   Integer age, String gender,
                                   String occupation, String city){
     
-                System.out.printf("Welcome %s %s, a %d-year-old %s ""from %s who works as a%s
-    ",firstName, lastName, age, gender, city, occupation);
+                System.out.printf(
+                    "Welcome %s %s, a %d-year-old %s from %s who works as a%s
+    ",
+                    firstName, lastName, age, gender, city, occupation
+                );
             }
             
 
@@ -48,8 +51,8 @@ Example
 Importance
 ==========
 
-Data clumps make codes difficult to read, debug, scale, and also
-hardly reusable.
+Data clumps make codes difficult to read and understand, hardly
+reusable, and less organized.
 
 How to fix this
 ==========

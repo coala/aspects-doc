@@ -18,9 +18,9 @@ source code.
 Subaspects
 ==========
 
-* `ClassLength <ClassLength/README.rst>`_
 * `DataClump <DataClump/README.rst>`_
 * `FeatureEnvy <FeatureEnvy/README.rst>`_
+* `LargeClass <LargeClass/README.rst>`_
 Example
 =======
 

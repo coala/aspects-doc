@@ -15,39 +15,19 @@ Method-level code smells indicate poorly defined method and or
 functions (too long method or functions, or functions with too many
 parameters) in your source code.
 
-Tastes
-========
-
-+----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
-| Taste                |  Meaning                                                  |  Values                                                   |
-+======================+===========================================================+===========================================================+
-|                      |                                                           |                                                           |
-|``max_method_length`` | Represents the max number of lines for a method or a      | **40**                                                    |
-|                      | function'sdefinition.                                     |                                                           |
-|                      |                                                           |                                                           |
-+----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
-|                      |                                                           |                                                           |
-|``max_parameters``    | Represents the max number of parameters for a function's. | **10**, 5                                                 +
-|                      |                                                           |                                                           |
-+----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
-
-
-\* bold denotes default value
-
 Subaspects
 ==========
 
-This aspect does not have any sub aspects.
-
+* `LongMethod <LongMethod/README.rst>`_
+* `LongParameterList <LongParameterList/README.rst>`_
 Example
 =======
 
 .. code-block:: python
 
-    # This function has way too many parameters
-    
-    def func(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, z):
-        pass
+    * Long method
+    * Long paramater list
+    etc...
 
 
 Importance
