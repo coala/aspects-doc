@@ -8,22 +8,31 @@
 
 ClassLength
 ===========
-This aspect checks on classes' definitions length in your codebase.
+This aspect checks for large classes in your code base. A large class
+is a class that contains many fields, methods or lines of code.
 
 Tastes
 ========
 
-+---------------------+--------------------------------------------------------------+--------------------------------------------------------------+
-| Taste               |  Meaning                                                     |  Values                                                      |
-+=====================+==============================================================+==============================================================+
-|                     |                                                              |                                                              |
-|``max_class_length`` | Represents the max number of lines for a class's definition. | **999**                                                      +
-|                     |                                                              |                                                              |
-+---------------------+--------------------------------------------------------------+--------------------------------------------------------------+
-|                     |                                                              |                                                              |
-|``min_class_length`` | Represents the min number of lines for a class's definition. | **1**                                                        +
-|                     |                                                              |                                                              |
-+---------------------+--------------------------------------------------------------+--------------------------------------------------------------+
++---------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
+| Taste                     |  Meaning                                                     |  Values                                                      |
++===========================+==============================================================+==============================================================+
+|                           |                                                              |                                                              |
+|``max_class_length``       | Represents the max number of lines for a class's definition. | **999**                                                      +
+|                           |                                                              |                                                              |
++---------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
+|                           |                                                              |                                                              |
+|``max_constants``          | Represents the max number of constants for a class           | **3**                                                        +
+|                           |                                                              |                                                              |
++---------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
+|                           |                                                              |                                                              |
+|``max_instance_variables`` | Represents the max number of instance variables for a class  | **3**                                                        +
+|                           |                                                              |                                                              |
++---------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
+|                           |                                                              |                                                              |
+|``max_methods``            | Represents the max number of methods for a class             | **3**                                                        +
+|                           |                                                              |                                                              |
++---------------------------+--------------------------------------------------------------+--------------------------------------------------------------+
 
 
 \* bold denotes default value
@@ -71,9 +80,9 @@ Example
 Importance
 ==========
 
-Too large classes also known as God objects, result in ambiguous and
-difficult to debug source code; whereas too small classes (or lazy
-classes or freeloader) are sometimes useless.
+Refactoring these classes spares developers from the need to remember
+a large number of attributes and methods. Splitting these classes
+avoids duplication, and makes the code shorter and easier to maintain.
 
 How to fix this
 ==========

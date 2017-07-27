@@ -2,51 +2,30 @@
 | ``Root.Smell.MethodSmell`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +----------------------------+----------------------------+------------------------------------------------------------------+
 
+
 +---------------------+------------------------------------------+------------------------------------------+----------------------------------+
 | **Sibling aspects** | `ClassSmell <../ClassSmell/README.rst>`_ | `Complexity <../Complexity/README.rst>`_ | `Naming <../Naming/README.rst>`_ |
 +---------------------+------------------------------------------+------------------------------------------+----------------------------------+
 
 MethodSmell
 ===========
-This aspect detects `code smells` related to methods' and functions
-definitions in your codebase.
+Code smells related to a method or function definition.
 
 Method-level code smells indicate poorly defined method and or
 functions (too long method or functions, or functions with too many
 parameters) in your source code.
 
-Tastes
-========
-
-+----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
-| Taste                |  Meaning                                                  |  Values                                                   |
-+======================+===========================================================+===========================================================+
-|                      |                                                           |                                                           |
-|``max_method_length`` | Represents the max number of lines for a method or a      | **40**                                                    |
-|                      | function'sdefinition.                                     |                                                           |
-|                      |                                                           |                                                           |
-+----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
-|                      |                                                           |                                                           |
-|``max_parameters``    | Represents the max number of parameters for a function's. | **10**, 5                                                 +
-|                      |                                                           |                                                           |
-+----------------------+-----------------------------------------------------------+-----------------------------------------------------------+
-
-
-\* bold denotes default value
-
 Subaspects
 ==========
 
-This aspect does not have any sub aspects.
-
+* `MethodLength <MethodLength/README.rst>`_
+* `ParameterListLength <ParameterListLength/README.rst>`_
 Example
 =======
 
-.. code-block:: python
+.. code-block:: Python
 
-    # This function has way too many parameters
-    
-    def func(a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, z):
+    def do_nothing(var1, var2, var3, var4, var5, var6, var7):
         pass
 
 

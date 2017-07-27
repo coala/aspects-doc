@@ -2,62 +2,44 @@
 | ``Root.Smell.Complexity`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +---------------------------+----------------------------+------------------------------------------------------------------+
 
+
 +---------------------+------------------------------------------+--------------------------------------------+----------------------------------+
 | **Sibling aspects** | `ClassSmell <../ClassSmell/README.rst>`_ | `MethodSmell <../MethodSmell/README.rst>`_ | `Naming <../Naming/README.rst>`_ |
 +---------------------+------------------------------------------+--------------------------------------------+----------------------------------+
 
 Complexity
 ==========
-This aspect checks on the cyclomatic complexity of your code.
-
-Tastes
-========
-
-+--------------------------+----------------------------------------------------------+----------------------------------------------------------+
-| Taste                    |  Meaning                                                 |  Values                                                  |
-+==========================+==========================================================+==========================================================+
-|                          |                                                          |                                                          |
-|``cyclomatic_complexity`` | This the maximum number of embedded branches or embedded | **6**                                                    |
-|                          | loops allowed.                                           |                                                          |
-|                          |                                                          |                                                          |
-+--------------------------+----------------------------------------------------------+----------------------------------------------------------+
-
-
-\* bold denotes default value
+Complexity of a code based on different complexity metrics.
 
 Subaspects
 ==========
 
-This aspect does not have any sub aspects.
-
+* `CylomaticComplexity <CylomaticComplexity/README.rst>`_
+* `MaintainabilityIndex <MaintainabilityIndex/README.rst>`_
 Example
 =======
 
-.. code-block:: C++
+.. code-block:: reStructuredText
 
-    for (i=0; i<n; ++i){
-        for (i=0; i<n; ++i){
-            for (i=0; i<n; ++i){
-                for (i=0; i<n; ++i){
-                    for (i=0; i<n; ++i){
-                        for (i=0; i<n; ++i){
-                            for (i=0; i<n; ++i){
-                                for (i=0; i<n; ++i){
-                                    ...
-                                    //do something
-    ...
-    }
+    * McCabe's complexity
+    * Halstead complexity
+    * Elshof complexity
+    * Data complexity
+    etc...
+    
+    Here is an example of complex code:
+    https://github.com/sympy/sympy/blob/master/sympy/solvers/solvers.py
 
 
 Importance
 ==========
 
-Very complex code are difficult to read, debug and maintain.
-It is always a good idea to keep things as simple as possible.
+Complex programs are difficult to read and maintain. Reducing a code's
+complexity improves its organization.
 
 How to fix this
 ==========
 
-This can be solved by breaking down complex functions into smaller
-onces.
+Implementing simple methods, avoiding too many branches, avoiding too
+much multilevel inheritance etc... can fix this.
 

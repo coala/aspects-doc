@@ -2,16 +2,14 @@
 | ``Root.Smell.ClassSmell.FeatureEnvy`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +---------------------------------------+----------------------------+------------------------------------------------------------------+
 
-+---------------------+--------------------------------------------+----------------------------------------+
-| **Sibling aspects** | `ClassLength <../ClassLength/README.rst>`_ | `DataClump <../DataClump/README.rst>`_ |
-+---------------------+--------------------------------------------+----------------------------------------+
+
++---------------------+----------------------------------------+----------------------------------------+
+| **Sibling aspects** | `ClassSize <../ClassSize/README.rst>`_ | `DataClump <../DataClump/README.rst>`_ |
++---------------------+----------------------------------------+----------------------------------------+
 
 FeatureEnvy
 ===========
-This aspect detects occurrences of feature envy in your codebase.
-
-`Feature envy` describes classes that excessively use methods of other
-classes.
+Classes that excessively use methods of other classes.
 
 Subaspects
 ==========
@@ -21,7 +19,7 @@ This aspect does not have any sub aspects.
 Example
 =======
 
-.. code-block:: java
+.. code-block:: Java
 
     public class Phone {
         private final String unformattedNumber;

@@ -2,15 +2,14 @@
 | ``Root.Smell.Naming`` | `Parent <../README.rst>`_  | `Index <//github.com/coala/aspect-docs/blob/master/README.rst>`_ |
 +-----------------------+----------------------------+------------------------------------------------------------------+
 
+
 +---------------------+------------------------------------------+------------------------------------------+--------------------------------------------+
 | **Sibling aspects** | `ClassSmell <../ClassSmell/README.rst>`_ | `Complexity <../Complexity/README.rst>`_ | `MethodSmell <../MethodSmell/README.rst>`_ |
 +---------------------+------------------------------------------+------------------------------------------+--------------------------------------------+
 
 Naming
 ======
-This aspect checks on identifiers in your codebase (their length
-and the appropriate naming convention to use for them, be it variables,
-classes or functions names.)
+`Naming` refers to the naming conventions to use for identifiers.
 
 Tastes
 ========
@@ -47,10 +46,11 @@ This aspect does not have any sub aspects.
 Example
 =======
 
-.. code-block:: English
+.. code-block:: Python 3
 
-    camelCase naming convention, snake_case naming convention,
-    hyphenated-case naming convention etc...
+    dummyVar = None  # lowerCamelCase naming convention
+    DummyVar = None  # UpperCamelCase naming convention
+    dummy_var = None  # snake_case naming convention
 
 
 Importance
